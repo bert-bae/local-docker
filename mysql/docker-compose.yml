@@ -17,3 +17,6 @@ services:
 
 volumes:
   mysql-data: 
+
+# sudo docker exec -it local-docker_mysql_1 /bin/bash
+# mysql -h 127.0.0.1 -P 3306 -u local -ppassword
